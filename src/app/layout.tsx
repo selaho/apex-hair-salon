@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     title: SITE_NAME,
     description:
-      "Strand Atelier, Bloom Braids & Beauty — powered by COTGI.",
+      "Carol and Betty's Salon — powered by COTGI.",
     images: [
       {
         url: "/opengraph-image",

@@ -9,6 +9,7 @@ const BADGE_ICONS: Record<string, ReactNode> = {
   "Walk-ins Welcome": <DoorOpen className="size-4" />,
   Appointments: <DoorOpen className="size-4" />,
   "Color Specialists": <Sparkles className="size-4 text-brass" />,
+  "Davines Salon": <Sparkles className="size-4 text-brass" />,
   "Braiding Specialists": <Users className="size-4" />,
   "Kids Welcome": <Users className="size-4" />,
   "Silk Press": <Sparkles className="size-4 text-brass" />,

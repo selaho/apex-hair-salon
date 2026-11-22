@@ -9,24 +9,23 @@
     "beauty salon",
     "hair stylist",
     "braiding",
-    "color"
+    "color",
+    "davines"
   ],
   "demos": [
     {
-      "slug": "strand-atelier",
-      "shop_name": "Strand Atelier",
-      "short_name": "Strand",
-      "address": "1515 Cleveland Ave, East Point, GA 30344",
-      "aliases": ["Strand", "Strand Atelier"],
-      "demo_url": "https://apex-hair-salon.vercel.app/demo/strand-atelier"
-    },
-    {
-      "slug": "bloom-braids",
-      "shop_name": "Bloom Braids & Beauty",
-      "short_name": "Bloom",
-      "address": "2783 Washington Rd, East Point, GA 30344",
-      "aliases": ["Bloom", "Bloom Braids", "Bloom Braids & Beauty"],
-      "demo_url": "https://apex-hair-salon.vercel.app/demo/bloom-braids"
+      "slug": "carol-and-bettys",
+      "shop_name": "Carol and Betty's Salon",
+      "short_name": "Carol & Betty's",
+      "address": "401 Memorial Dr SE Ste K, Atlanta, GA 30312",
+      "aliases": [
+        "Carol and Betty's",
+        "Carol and Bettys Salon",
+        "Carol and Betty's Salon",
+        "Carol & Betty's",
+        "Carol & Bettys"
+      ],
+      "demo_url": "https://apex-hair-salon.vercel.app/demo/carol-and-bettys"
     }
   ]
 }

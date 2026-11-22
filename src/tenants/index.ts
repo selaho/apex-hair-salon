@@ -1,18 +1,16 @@
 import type { TenantBrand } from "@/lib/tenant-types";
 import { apexTenant } from "@/tenants/apex";
-import { bloomBraidsTenant } from "@/tenants/bloom-braids";
-import { strandAtelierTenant } from "@/tenants/strand-atelier";
+import { carolAndBettysTenant } from "@/tenants/carol-and-bettys";
 
 export const TENANTS: Record<string, TenantBrand> = {
   apex: apexTenant,
-  "strand-atelier": strandAtelierTenant,
-  "bloom-braids": bloomBraidsTenant,
+  "carol-and-bettys": carolAndBettysTenant,
 };
 
 /** Demo salons shown on the hub (exclude internal Apex reference template). */
-export const DEMO_TENANT_IDS = ["strand-atelier", "bloom-braids"] as const;
+export const DEMO_TENANT_IDS = ["carol-and-bettys"] as const;
 
-export const DEFAULT_TENANT_ID = "strand-atelier";
+export const DEFAULT_TENANT_ID = "carol-and-bettys";
 
 export function resolveTenantId(raw?: string | null): string {
   const id = (raw || DEFAULT_TENANT_ID).trim().toLowerCase();

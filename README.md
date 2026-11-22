@@ -8,8 +8,7 @@ Sister vertical to [apex-barber-club](https://github.com/selaho/apex-barber-club
 
 | Salon | Path |
 | --- | --- |
-| Strand Atelier | `/demo/strand-atelier` |
-| Bloom Braids & Beauty | `/demo/bloom-braids` |
+| Carol and Betty's Salon | `/demo/carol-and-bettys` |
 | Apex Hair Studio (reference) | `/demo/apex` |
 
 Hub: `/`  

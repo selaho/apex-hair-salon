@@ -94,7 +94,7 @@ export default function OpenGraphImage() {
               maxWidth: 900,
             }}
           >
-            Strand Atelier · Bloom Braids & Beauty
+            Carol and Betty's · Grant Park
           </div>
         </div>
 
