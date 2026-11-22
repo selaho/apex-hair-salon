@@ -1,0 +1,32 @@
+{
+  "vertical": "hair_salon",
+  "label": "Hair salons",
+  "base_url": "https://apex-hair-salon.vercel.app",
+  "path_template": "/demo/{slug}",
+  "keyword_hints": [
+    "hair salon",
+    "salon",
+    "beauty salon",
+    "hair stylist",
+    "braiding",
+    "color"
+  ],
+  "demos": [
+    {
+      "slug": "strand-atelier",
+      "shop_name": "Strand Atelier",
+      "short_name": "Strand",
+      "address": "1515 Cleveland Ave, East Point, GA 30344",
+      "aliases": ["Strand", "Strand Atelier"],
+      "demo_url": "https://apex-hair-salon.vercel.app/demo/strand-atelier"
+    },
+    {
+      "slug": "bloom-braids",
+      "shop_name": "Bloom Braids & Beauty",
+      "short_name": "Bloom",
+      "address": "2783 Washington Rd, East Point, GA 30344",
+      "aliases": ["Bloom", "Bloom Braids", "Bloom Braids & Beauty"],
+      "demo_url": "https://apex-hair-salon.vercel.app/demo/bloom-braids"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Salon hub defaults; demo pages override via TenantProvider */
+    --charcoal: #161218;
+    --surface: #1f1a22;
+    --muted-barber: #2e2733;
+    --brass: #c4788a;
+    --amber: #e8b4bc;
+    --offwhite: #faf7f8;
+
+    --background: #161218;
+    --foreground: #faf7f8;
+    --card: #1f1a22;
+    --card-foreground: #faf7f8;
+    --popover: #1f1a22;
+    --popover-foreground: #faf7f8;
+    --primary: #c4788a;
+    --primary-foreground: #161218;
+    --secondary: #2e2733;
+    --secondary-foreground: #faf7f8;
+    --muted: #2e2733;
+    --muted-foreground: #a3a3a3;
+    --accent: #2e2733;
+    --accent-foreground: #faf7f8;
+    --destructive: #ef4444;
+    --border: rgb(255 255 255 / 12%);
+    --input: rgb(255 255 255 / 15%);
+    --ring: #c4788a;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-charcoal text-offwhite antialiased;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 10% -10%, rgb(196 120 138 / 14%), transparent),
+      radial-gradient(ellipse 60% 40% at 100% 0%, rgb(232 180 188 / 10%), transparent);
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    background: rgb(196 120 138 / 35%);
+    color: #faf7f8;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display), ui-serif, Georgia, serif;
+  }
+
+  .animate-rise {
+    animation: rise 0.7s ease both;
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.25s ease both;
+  }
+
+  .animate-slide-up {
+    animation: slide-up 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .animate-scale-in {
+    animation: scale-in 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

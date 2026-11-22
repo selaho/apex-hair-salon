@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="COTGI Barber Demos">
+  <rect width="192" height="192" fill="#121212"/>
+  <rect x="24" y="24" width="144" height="144" rx="32" fill="#e85d04"/>
+  <text x="96" y="108" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="84" font-weight="700" fill="#121212">C</text>
+  <text x="96" y="138" text-anchor="middle" font-family="Outfit, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="3" fill="#121212">COTGI</text>
+</svg>
