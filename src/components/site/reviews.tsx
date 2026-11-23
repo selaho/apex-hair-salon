@@ -29,7 +29,7 @@ export function Reviews() {
               Social Proof
             </p>
             <h2 className="mt-2 font-display text-4xl text-offwhite sm:text-5xl">
-              Trusted in East Point
+              Trusted in {shop.locationLabel.split("·")[0].trim()}
             </h2>
 
             <div className="mt-6 inline-flex items-center gap-3 rounded-2xl border border-brass/30 bg-brass/10 px-5 py-4">

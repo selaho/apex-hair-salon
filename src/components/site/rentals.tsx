@@ -42,9 +42,8 @@ export function Rentals() {
               Rent a Station / Join Our Team
             </h2>
             <p className="mt-3 text-offwhite/60">
-              East Point / Atlanta-area booth rates for independent stylists —
-              keep client bookings on the same platform while you rent a
-              station.
+              Atlanta-area booth rates for independent stylists — keep client
+              bookings on the same platform while you rent a station.
             </p>
             <p className="mt-2 text-xs text-offwhite/40">
               Sample rental benchmarks for the COTGI demo — not a live lease.
