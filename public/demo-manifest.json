@@ -10,7 +10,8 @@
     "hair stylist",
     "braiding",
     "color",
-    "davines"
+    "davines",
+    "furterer"
   ],
   "demos": [
     {
@@ -26,6 +27,20 @@
         "Carol & Bettys"
       ],
       "demo_url": "https://apex-hair-salon.vercel.app/demo/carol-and-bettys"
+    },
+    {
+      "slug": "buckhead-hair",
+      "shop_name": "The Buckhead Hair Company",
+      "short_name": "Buckhead Hair",
+      "address": "3115 Maple Dr NE, Atlanta, GA 30305",
+      "aliases": [
+        "Buckhead Hair",
+        "Buckhead Hair Salon",
+        "Buckhead Hair Company",
+        "The Buckhead Hair Company",
+        "the Buckhead Hair company"
+      ],
+      "demo_url": "https://apex-hair-salon.vercel.app/demo/buckhead-hair"
     }
   ]
 }

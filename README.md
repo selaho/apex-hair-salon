@@ -9,6 +9,7 @@ Sister vertical to [apex-barber-club](https://github.com/selaho/apex-barber-club
 | Salon | Path |
 | --- | --- |
 | Carol and Betty's Salon | `/demo/carol-and-bettys` |
+| The Buckhead Hair Company | `/demo/buckhead-hair` |
 | Apex Hair Studio (reference) | `/demo/apex` |
 
 Hub: `/`  

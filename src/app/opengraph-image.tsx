@@ -94,7 +94,7 @@ export default function OpenGraphImage() {
               maxWidth: 900,
             }}
           >
-            Carol and Betty's · Grant Park
+            Carol and Betty's · Buckhead Hair
           </div>
         </div>
 

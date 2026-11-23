@@ -1,14 +1,16 @@
 import type { TenantBrand } from "@/lib/tenant-types";
 import { apexTenant } from "@/tenants/apex";
+import { buckheadHairTenant } from "@/tenants/buckhead-hair";
 import { carolAndBettysTenant } from "@/tenants/carol-and-bettys";
 
 export const TENANTS: Record<string, TenantBrand> = {
   apex: apexTenant,
   "carol-and-bettys": carolAndBettysTenant,
+  "buckhead-hair": buckheadHairTenant,
 };
 
 /** Demo salons shown on the hub (exclude internal Apex reference template). */
-export const DEMO_TENANT_IDS = ["carol-and-bettys"] as const;
+export const DEMO_TENANT_IDS = ["carol-and-bettys", "buckhead-hair"] as const;
 
 export const DEFAULT_TENANT_ID = "carol-and-bettys";
 

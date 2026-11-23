@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     title: SITE_NAME,
     description:
-      "Carol and Betty's Salon — powered by COTGI.",
+      "Carol and Betty's, The Buckhead Hair Company — powered by COTGI.",
     images: [
       {
         url: "/opengraph-image",
